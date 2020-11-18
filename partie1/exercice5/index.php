@@ -1,7 +1,10 @@
 <?php
+// Yes ou No
 $answer = 'Yes';
+// Si 
 if ($answer == 'Yes') {
     echo "Vous avez répondu oui.";
+    // Ou alors
 } else {
     echo "Vous avez répondu non.";
 }
