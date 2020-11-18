@@ -12,7 +12,7 @@ $name = 'Rémy';
 </head>
 
 <body>
-    <p>Bonjour <?php echo $name ?> , comment vas-tu ?</p>
+    <p>Bonjour <?php echo $name; ?> , comment vas-tu ?</p>
     <p><?php echo 'Bonjour ' .$name.' , comment vas-tu ?';?></p>
 </body>
 
