@@ -4,7 +4,7 @@ $lastname = 'Nom : Degrave';
 // Déclaration de la variable $firstname et initisialisation avec la valeur "Rémy"
 $firstname = 'Prénom : Rémy';
 // Déclaration de la variable $age et initisialisation avec la valeur "19 years old"
-$age = '19';
+$age = 19;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
