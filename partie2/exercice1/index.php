@@ -1,10 +1,5 @@
 <?php
 $age = 18;
-if ($age > 18) {
-    echo "Vous êtes majeur.";
-} else {
-    echo "Vous êtes mineur.";
-}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -16,6 +11,15 @@ if ($age > 18) {
 </head>
 
 <body>
+    <div>
+        <?php if ($age >= 18 && $age <= 100) { ?>
+                  <p>Vous êtes majeur.</p>
+        <?php } else if ($age >=0 && $age < 18) { ?>
+                <p>Vous êtes mineur.</p>
+        <?php } else { ?>
+                <p>Erreur 403.</p>
+            <?php } ?> 
+        </div>
 
 </body>
 
